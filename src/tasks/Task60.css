@@ -1,0 +1,49 @@
+.container {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 100vh;
+
+  background-color: #f0f0f0;
+}
+
+.card {
+
+  width: 400px;
+
+  padding: 20px;
+
+  background-color: white;
+
+  border-radius: 10px;
+
+  text-align: center;
+
+  box-shadow: 0 0 10px gray;
+}
+
+.title {
+
+  color: blue;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 600px) {
+
+  .card {
+
+    width: 90%;
+
+    background-color: lightblue;
+  }
+
+  .title {
+
+    font-size: 20px;
+  }
+}
